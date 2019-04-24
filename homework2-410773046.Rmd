@@ -169,6 +169,7 @@ allCommitDatesTW
 ```{r ans26}
 step1 <- hour(allCommitDatesTW)*100 + minute(allCommitDatesTW)
 logicWithinTimeFrame <- 430 <= step1 & step1 <= 630
+class(logicWithinTimeFrame)
 logicWithinTimeFrame
 ```
 
